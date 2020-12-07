@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contact-container{
+    background-image: linear-gradient(to right top, #0b0732, #0c1336, #121a39, #18223b, #20293d, #20293b, #202a39, #212a37, #1a2431, #131f2c, #0b1a26, #021421);
+    width: 100%;
+    min-height: 100vh;
+    padding: 50px 100px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.contact-container .content{
+    font-weight: 800;
+    text-align: center;
+    max-width: 800px;
+    color: #fff;
+}
+.contact-container .content h2{
+    font-size: 35px;
+    text-align: center;
+}
+
+.contact-container .content p{
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+}
+
+.conttact-info-container{
+    width: 100%;
+    display: flex;
+    /* flex-direction:  row; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.conttact-info-container .contact-info{
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+   
+}
+
+.conttact-info-container .box{
+    display: flex;
+    position: relative;
+    padding:  20px 0;
+}
+
+.conttact-info-container .box .fa-icons{
+    min-width: 40px;
+    height: 40px;
+    display: flex;
+    background:  #fff;
+    font-size: 20px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.conttact-info-container .box .text{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+
+}
+
+
+.conttact-info-container .box .text h2{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.contactForm{
+    width: 30%;
+    padding: 40px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 3px 6px 1px #000;
+}
+
+.contactForm h2{
+    color: #333;
+    font-size: 25px;
+    font-weight: 500px;
+}
+
+.contactForm .inputBox{
+    width: 100%;
+    margin-top: 10px;
+    position: relative;
+}
+
+.contactForm .inputBox input, 
+.contactForm .inputBox textarea{
+    width: 100%;
+    padding: 5px 10px;
+  color: #000;
+  border: none;
+  border-radius: 0.3em;
+  border-bottom: 1px solid #1e1e1e;
+  outline: none;
+  transition: all 0.1s ease-out;
+  position: relative;
+  resize: none;
+}
+
+.contactForm .inputBox input:focus {
+    box-shadow: 0 2px 3px #1e1e1e;
+    border-bottom: 0.25em solid #0f5177;
+    top:-2px;
+  }
+
+
+  .contactForm .inputBox span{
+      position: absolute;
+      left: 0;
+      pointer-events: none;
+      font-family: 15px;
+      margin: 10px 0;
+      color: #1e1e1e;
+  }
+
+  @media(width: 991px){
+    .contact-container{
+        padding: 50px;
+    }
+    .conttact-info-container{
+        flex-direction: column;
+    }
+  }
