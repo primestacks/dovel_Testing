@@ -140,7 +140,12 @@
     .conttact-info-container{
         flex-direction: column;
     }
-
+    .conttact-info-container .contact-info{
+        width: 80%;
+        flex-direction: column;
+        display: flex;
+       
+    }
     .contactForm{
         width: 80%;
     }
