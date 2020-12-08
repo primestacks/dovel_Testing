@@ -120,7 +120,8 @@
   resize: none;
 }
 
-.contactForm .inputBox input:focus {
+.contactForm .inputBox input:focus, 
+.contactForm .inputBox textarea:focus {
     box-shadow: 0 2px 3px #1e1e1e;
     border-bottom: 0.25em solid #0f5177;
     top:-2px;
