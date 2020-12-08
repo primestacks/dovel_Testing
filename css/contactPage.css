@@ -216,6 +216,8 @@
         color: #fff;
         background: #010514c9;
         width: 100%;
-        margin-left: 0;
+        /* margin-left: 10px; */
+        align-items: center;
+        align-content: center;
     }
   }
