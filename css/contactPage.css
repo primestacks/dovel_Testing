@@ -98,7 +98,7 @@
 
 .contactForm .inputBox{
     width: 100%;
-    margin-top: 10px;
+    margin-top: 15px;
     position: relative;
 }
 
@@ -132,11 +132,16 @@
       color: #1e1e1e;
   }
 
-  @media(width: 991px){
+  @media only screen and (max-width: 991px){
     .contact-container{
-        padding: 50px;
+        padding: 20px;
+        width: 100%;
     }
     .conttact-info-container{
         flex-direction: column;
+    }
+
+    .contactForm{
+        width: 80%;
     }
   }
