@@ -1473,22 +1473,23 @@ section.hand-crafted p {
 /*--/inner-w3pvt-page-- */
 
 .inner-w3pvt-page {
-    background: url(../images/banner1.jpg) no-repeat center;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 10%, rgba(4,10,35,1) 24%, rgba(4,13,35,1) 30%, rgba(4,15,35,1) 34%, rgba(6,15,23,0.9612219887955182) 45%, rgba(5,23,34,1) 51%, rgba(5,28,34,0.9164040616246498) 63%, rgba(4,63,76,1) 70%, rgba(3,113,136,1) 80%, rgba(2,133,160,1) 84%, rgba(2,148,178,1) 87%, rgba(53,122,136,1) 91%);
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
-    min-height: 11em;
+    min-height: 8em;
 }
 
 .overlay-innerpage {
-    min-height: 11em;
+    min-height: 8em;
     background: rgba(0, 0, 0, 0.44);
 }
 
 .inner-w3pvt-page-info {
-    padding-top: 7em;
+    padding-top: 5em;
 }
 
 .breadcrumb {
