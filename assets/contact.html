@@ -1,31 +1,24 @@
 <!DOCTYPE html>
-<html lang="zxx">
-
+<html>
 <head>
     <title>DOVEL-ZOBO</title>
     <!-- Meta tag Keywords -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8" />
-    <meta name="keywords" content="Infinitude Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
-    <!-- <script>
-        addEventListener("load", function() {
-            setTimeout(hideURLbar, 0);
-        }, false);
-
-        function hideURLbar() {
-            window.scrollTo(0, 1);
-        }
-
-    </script> -->
+    <meta name="keywords" content="Dovel Zobo"/>
+    <!-- Library JS -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <!-- <script src="../scripts/lib/jQuery-2.1.4.min.js"> </script> -->
+ 
     <!-- //Meta tag Keywords -->
     <!-- Custom-Files -->
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
     <!-- Bootstrap-Core-CSS -->
-    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
-    <link rel="stylesheet" href="css/contactPage.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="../css/style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="../css/contactPage.css" type="text/css" media="all" />
     <!-- Style-CSS -->
     <!-- font-awesome-icons -->
-    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="../css/font-awesome.css" rel="stylesheet">
     <!-- //font-awesome-icons -->
 
 </head>
@@ -41,15 +34,15 @@
                     <!-- nav -->
                     <nav class="wthree-w3ls">
                         <div id="logo">
-                            <h1> <a class="navbar-brand px-0 mx-0" href="index.html">DOVEL-ZOBO
-                                </a>
+                            <a href="index.html"><img src="images/dov (1).png" alt="LOGO"></a>
+                            <!-- <h1> <a class="navbar-brand px-0 mx-0" href="index.html">Dovel-Zobo</a> -->
                             </h1>
                         </div>
 
                         <label for="drop" class="toggle">Menu</label>
                         <input type="checkbox" id="drop" />
                         <ul class="menu mr-auto">
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="../index.html">Home</a></li>
                             <li><a href="#gallery">Products</a></li>
                             <li><a href="about.html">About</a></li>
                             <li><a href="ourteam.html">Our Team</a></li>
@@ -123,24 +116,32 @@
                 </div>
 
                 <div class="contactForm">
-                    <form action="">
+                    <form id="contactForm" action="" >
                         <h2>Drop a Message</h2>
+                        <!-- Flash message will be displayed here -->
+                        <div id="flash-msg">Your message has been sent.</div>
                         <div class="inputBox">
-                            <input type="text" name="" required>
-                            <span>Full Name</span>
+                            <label for="name">Full Name</label>
+                            <input type="text" name="name" id="name">   
                         </div>
 
                         <div class="inputBox">
-                            <input type="email" name="" required>
-                            <span>Email</span>
-                        </div>
-                        <div class="inputBox">
-                            <textarea name="" id="" required></textarea>
-                            <span>Type your Message...</span>
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" >
                         </div>
 
                         <div class="inputBox">
-                            <input type="submit" name="" value="Send">
+                            <label for="phone">Phone</label>
+                            <input type="tel" name="phone" id="phone">  
+                        </div>
+
+                        <div class="inputBox">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" placeholder="Type your message here.." id="message"></textarea>  
+                        </div>
+
+                        <div class="inputBox">
+                            <input type="submit" name="submit" value="Send" id="submit">
                         </div>
                     </form>
 
@@ -150,10 +151,6 @@
     </section>
     <!-- Contact --><!-- Contact -->
     <!-- Contact --><!-- Contact -->
-
-
-
-
 
 
 
@@ -226,12 +223,12 @@
         <div class="container">
             <div class="row d-flex">
                 <div class="col-lg-9 copy_w3pvt">
-                    <p class="text-lg-left text-center">All rights reserved. &copy; Copyright 2019, dovelzobo.com | Design by
+                    <p class="text-lg-center text-center footer-text">Copyright &copy;  2019 - <script>document.write(new Date().getFullYear())</script> Dovel Zobo Company All Rights Reserved  | Design by
                         <a href="#" target="_blank">Austin Tony N.</a> | <i class="fa fa-phone">+234 (0) 806 709 1463</i></p>
 
                 </div>
                 <!-- move top -->
-                <div class="col-lg-3 move-top text-lg-right text-center">
+                <div class="col-lg-3 move-top  text-lg-right text-center" id="moveTop">
                     <a href="#home" class="move-top">
                         <span class="fa fa-angle-double-up mt-3" aria-hidden="true"></span>
                     </a>
@@ -243,6 +240,8 @@
     </div>
     <!-- //copyright -->
 </body>
+<script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-analytics.js"></script>
 
-<script src="../script/script.js"> </script>
+<!-- <script src="../scripts/script.js"> </script> -->
+<script src="../scripts/app.js"> </script>
 </html>

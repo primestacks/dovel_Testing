@@ -7,9 +7,8 @@
     <!-- Meta tag Keywords -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8" />
-    <script>
-   
-    </script>
+    <script src="scripts/lib/jQuery-2.1.4.min.js"></script>
+
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
     <link href="css/font-awesome.css" rel="stylesheet">
@@ -26,7 +25,8 @@
                 <!-- nav -->
                 <nav class="wthree-w3ls">
                     <div id="logo">
-                        <h1> <a class="navbar-brand px-0 mx-0" href="index.html">Dovel-Zobo</a>
+                        <a href="index.html"><img src="images/dov (1).png" alt="LOGO"></a>
+                        <!-- <h1> <a class="navbar-brand px-0 mx-0" href="index.html">Dovel-Zobo</a> -->
                         </h1>
                     </div>
 
@@ -34,11 +34,11 @@
                     <input type="checkbox" id="drop" />
                     <ul class="menu mr-auto">
                         <li class="active"><a href="index.html">Home</a></li>
-                        <li><a href="services.html" class="drop-text">Services</a></li>
+                        <li><a href="assets/services.html" class="drop-text">Services</a></li>
                         <li><a href="#gallery">Products</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="ourteam.html">Our Team</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="assets/about.html">About</a></li>
+                        <li><a href="assets/ourteam.html">Our Team</a></li>
+                        <li><a href="assets/contact.html">Contact</a></li>
 
                         <li class="social-icons ml-lg-3"><a href="https://web.facebook.com/dovelzobong/?_rdc=1&_rdr" class="p-0 social-icon"><span class="fa fa-facebook-official"></span>
                                 <div class="tooltip">Facebook</div>
@@ -106,20 +106,20 @@
                 <div class="d-flex hny-stats-inf">
                     <div class="col-md-4 stats_w3pvt_counter_grid mt-3">
                         <div class="d-md-flex justify-content-center">
-                            <h5 class="counter">2568</h5>
-                            <p class="para-w3pvt">Designs</p>
+                            <h5 class="counter">Amazing</h5>
+                            <p class="para-w3pvt">Flavours</p>
                         </div>
                     </div>
                     <div class="col-md-4 stats_w3pvt_counter_grid mt-3">
                         <div class="d-md-flex justify-content-center">
-                            <h5 class="counter">1900</h5>
-                            <p class="para-w3pvt"> Projects</p>
+                            <h5 class="counter">500+</h5>
+                            <p class="para-w3pvt"> Customers</p>
                         </div>
                     </div>
                     <div class="col-md-4 stats_w3pvt_counter_grid mt-3">
                         <div class="d-md-flex justify-content-center">
-                            <h5 class="counter">899</h5>
-                            <p class="para-w3pvt">Clients</p>
+                            <h5 class="counter">Quality</h5>
+                            <p class="para-w3pvt">Nutrient</p>
                         </div>
                     </div>
                 </div>
@@ -138,18 +138,19 @@
         <div class="container p-md-5">
             <div class="about-hny-info text-left px-md-5">
                 <h3 class="tittle-w3ls mb-3"><span class="pink">DOVEL</span> -ZOBO</h3>
-                <h4 style="font-family: times new roman; font-weight: bolder;">We are Your first choice of <span style="font-weight: bold; color: red;">Beverage</span> Drink</h4>
-                <p class="sub-tittle mt-3 mb-4">Dovel-Zobo drink is a product of Dovel-Zobo company Ltd, created and produced by Precious Onome. It is an improved and highly standardised alternative of the local or popular Zobo drink product of the hibiscus flower</p>
+                <h4 style="font-weight: bolder;">We are Your first choice of <span style="font-weight: bold; color: rgb(255, 102, 0);">Beverage</span> Drink</h4>
+                <p style="letter-spacing: 1.3px;">Dovel-Zobo drink is a product of Dovel-Zobo company Ltd, created and produced by Precious Onome. It is an improved and highly standardised alternative of the local or popular Zobo drink product of the hibiscus flower</p>
 
-                <p id="readMore" style="display: none;"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                <p id="moreInfo" style="display: none; letter-spacing: 2px;"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                <a class="btn more black" href="single.html" role="button">Goto Abput</a> </p>
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <br> <br>
+                <a class="btn more black" href="single.html" role="button">Goto About</a>
+            </p>
 
-                <button onclick="readMore">Read More</button>
+                <button id="readMore" class="btn btn-info">More <span>></span></button>
             </div>
         </div>
     </section>
@@ -160,11 +161,10 @@
             <div class="row inner_sec_info">
 
                 <div class="col-md-6 banner_bottom_grid help">
-                    <img src="images/ab.jpg" alt=" " class="img-fluid">
+                    <img src="images/dov (5).jpg" alt=" " class="img-fluid">
                 </div>
                 <div class="col-md-6 banner_bottom_left mt-lg-0 mt-4">
-                    <h4><a class="link-hny" href="services.html">
-                            We’re Changing the Way You Work with Agencies</a></h4>
+                    <h4><a class="link-hny" href="services.html">Catchy Tag Here</a></h4>
                     <p>Pellentesque convallis diam consequat magna vulputate malesuada. Cras a ornare elit. Nulla viverra pharetra sem, eget
                         pulvinar neque pharetra ac.</p>
                     <p>Lorem Ipsum convallis diam consequat magna vulputate malesuada. Cras a ornare elit. Nulla viverra pharetra sem, eget
@@ -182,7 +182,7 @@
                             </div>
                         </div>
                         <div class="col-md-9 featured_grid_right_info pl-lg-0">
-                            <h4><a class="link-hny" href="single.html">Global Network</a></h4>
+                            <h4><a class="link-hny">Global Network</a></h4>
                             <p>Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
                         </div>
                     </div>
@@ -195,7 +195,7 @@
                             </div>
                         </div>
                         <div class="col-md-9 featured_grid_right_info pl-lg-0">
-                            <h4><a class="link-hny" href="single.html">Digital Agency</a></h4>
+                            <h4><a class="link-hny" >Some Text Here</a></h4>
                             <p>Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
                         </div>
                     </div>
@@ -208,7 +208,7 @@
                             </div>
                         </div>
                         <div class="col-md-9 featured_grid_right_info pl-lg-0">
-                            <h4><a class="link-hny" href="single.html">Trusted Partner</a></h4>
+                            <h4><a class="link-hny">Customers sactisfaction</a></h4>
                             <p>Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
                         </div>
                     </div>
@@ -229,7 +229,7 @@
                     <div class="col-lg-5 services-innfo pr-5">
                         <h3 class="tittle-w3ls two mb-3 text-left"><span class="pink">What</span> We Provide</h3>
                         <p class="sub-tittle mt-2 mb-sm-3 text-left">Integer pulvinar leo id viverra feugiat. Pellentesque libero ut justo, semper at tempus vel, ultrices in ligula..</p>
-                        <a href="services.html"><img src="images/p1.jpg" alt="w3pvt" class="img-fluid"></a>
+                        <a href="services.html"><img src="images/dov (11).jpg" alt="w3pvt" class="img-fluid"></a>
                     </div>
                     <div class="col-lg-7 services-grid-inf">
                         <div class="row services-w3pvt-main mt-5">
@@ -241,7 +241,7 @@
                                         </div>
                                     </div>
                                     <div class="col-md-10 featured_grid_right_info">
-                                        <h4><a class="link-hny" href="single.html">UI/UX Designs</a></h4>
+                                        <h4><a class="link-hny">The taste of liberty</a></h4>
                                         <p>Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
 
                                     </div>
@@ -256,7 +256,7 @@
                                         </div>
                                     </div>
                                     <div class="col-md-10 featured_grid_right_info">
-                                        <h4><a class="link-hny" href="single.html">SEO Marketing</a></h4>
+                                        <h4><a class="link-hny">Delivery</a></h4>
                                         <p>Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
 
                                     </div>
@@ -274,7 +274,7 @@
                                         </div>
                                     </div>
                                     <div class="col-md-10 featured_grid_right_info">
-                                        <h4><a class="link-hny" href="single.html">User Experience</a></h4>
+                                        <h4><a class="link-hny" >Best Taste of Beverage</a></h4>
                                         <p>Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
 
                                     </div>
@@ -289,7 +289,7 @@
                                         </div>
                                     </div>
                                     <div class="col-md-10 featured_grid_right_info">
-                                        <h4><a class="link-hny" href="single.html">Creative Strategy</a></h4>
+                                        <h4><a class="link-hny" >Creative Strategy</a></h4>
                                         <p>Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
 
                                     </div>
@@ -311,49 +311,49 @@
     <!-- /products -->
     <section class="projects py-5" id="gallery">
         <div class="container py-md-5">
-            <h3 class="tittle-w3ls text-left mb-5"><span class="pink">Stunning</span> Products</h3>
+            <h3 class="tittle-w3ls text-left mb-5"><span class="pink">Our Stunning</span> Products</h3>
             <div class="row news-grids mt-md-5 mt-4 text-center">
                 <div class="col-md-4 gal-img">
                     <a href="#gal1"><img src="images/a9.jpg" alt="w3pvt" class="img-fluid"></a>
                     <div class="gal-info">
-                        <h5>View Product<span class="decription">Website</span></h5>
+                        <h5>View Product<span class="decription">flavour name</span></h5>
                     </div>
                 </div>
                 <div class="col-md-4 gal-img">
                     <a href="#gal2"><img src="images/a8.jpg" alt="w3pvt" class="img-fluid"></a>
                     <div class="gal-info">
-                        <h5>View Project<span class="decription">Website</span></h5>
+                        <h5>View Product<span class="decription">Flavour name</span></h5>
                     </div>
                 </div>
                 <div class="col-md-4 gal-img">
                     <a href="#gal3"><img src="images/a7.jpg" alt="w3pvt" class="img-fluid"></a>
                     <div class="gal-info">
-                        <h5>View Project<span class="decription">Website</span></h5>
+                        <h5>View Product<span class="decription">flavour</span></h5>
                     </div>
                 </div>
                 <div class="col-md-4 gal-img">
                     <a href="#gal4"><img src="images/a10.jpg" alt="w3pvt" class="img-fluid"></a>
                     <div class="gal-info">
-                        <h5>View Project<span class="decription">Website</span></h5>
+                        <h5>View Product<span class="decription">flavour</span></h5>
                     </div>
                 </div>
 
                 <div class="col-md-4 gal-img">
                     <a href="#gal5"><img src="images/a3.jpg" alt="w3pvt" class="img-fluid"></a>
                     <div class="gal-info">
-                        <h5>View Project<span class="decription">Website</span></h5>
+                        <h5>View Product<span class="decription">flavour</span></h5>
                     </div>
                 </div>
                 <div class="col-md-4 gal-img">
                     <a href="#gal6"><img src="images/a2.jpg" alt="w3pvt" class="img-fluid"></a>
                     <div class="gal-info">
-                        <h5>View Project<span class="decription">Website</span></h5>
+                        <h5>View Product<span class="decription">flavour</span></h5>
                     </div>
                 </div>
                 <div class="col-md-4 gal-img">
                     <a href="#gal7"><img src="images/a1.jpg" alt="w3pvt" class="img-fluid"></a>
                     <div class="gal-info">
-                        <h5>View Project<span class="decription">Website</span></h5>
+                        <h5>View Product<span class="decription">flavour</span></h5>
                     </div>
                 </div>
 
@@ -447,66 +447,7 @@
             <!-- //popup -->
         </div>
     </section>
-    <!-- //projects -->
 
-    <!-- /blogs -->
-    <!-- <section class="blog-posts" id="blog">
-        <div class="blog-w3pvt-info-content container-fluid">
-            <h3 class="tittle-w3ls text-center mb-5">Recent Blog Posts</h3>
-            <div class="blog-grids-main row text-left">
-                <div class="col-lg-3 col-md-6 blog-grid-img px-0">
-                    <img src="images/g2.jpg" alt="Popup Image" class="img-fluid" />
-                </div>
-                <div class="col-lg-3 col-md-6 blog-grid-info px-0">
-                    <div class="date-post">
-                        <h6 class="date">May, 04th 2019</h6>
-                        <h4><a class="link-hny" href="single.html">Blog Post1</a></h4>
-                        <p>Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 blog-grid-img px-0">
-                    <img src="images/g4.jpg" alt="Popup Image" class="img-fluid" />
-                </div>
-                <div class="col-lg-3 col-md-6 blog-grid-info px-0 ">
-                    <div class="date-post">
-                        <h6 class="date">May, 04th 2019</h6>
-                        <h4><a class="link-hny" href="single.html">Blog Post2</a></h4>
-                        <p>Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
-                    </div>
-                </div>
-
-            </div>
-            <div class="blog-grids-main row text-left">
-
-                <div class="col-lg-3 col-md-6 blog-grid-info px-0">
-                    <div class="date-post">
-                        <h6 class="date">May, 04th 2019</h6>
-                        <h4><a class="link-hny" href="single.html">Blog Post3</a></h4>
-                        <p>Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 blog-grid-img px-0">
-                    <img src="images/g6.jpg" alt="Popup Image" class="img-fluid" />
-                </div>
-
-                <div class="col-lg-3 col-md-6 blog-grid-info px-0">
-                    <div class="date-post">
-                        <h6 class="date">May, 04th 2019</h6>
-                        <h4><a class="link-hny" href="single.html">Blog Post4</a></h4>
-                        <p>Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 blog-grid-img px-0">
-                    <img src="images/g8.jpg" alt="Popup Image" class="img-fluid" />
-                </div>
-
-            </div>
-        </div>
-
-    </section> -->
-    <!-- //blogs -->
-    
-    <!--/mid-->
     <section class="banner_bottom py-5" id="appointment">
         <div class="container py-md-5">
             <div class="row inner_sec_info">
@@ -516,24 +457,28 @@
 
                     <div class="login p-md-5 p-4 mx-auto bg-white mw-100">
                         <h4>
-                            Make An Appointment</h4>
+                            Book us for your Events</h4>
                         <form action="#" method="post">
                             <div class="form-group">
-                                <label>First name</label>
+                                <label>Full name</label>
 
                                 <input type="text" class="form-control" id="validationDefault01" placeholder="" required="">
                             </div>
                             <div class="form-group">
-                                <label>Last name</label>
+                                <label for="">Email</label>
                                 <input type="text" class="form-control" id="validationDefault02" placeholder="" required="">
+                            </div>
+                            <div class="form-group">
+                               <label for="">Phone</label>
+                                <input type="tel" class="form-control" id="validationDefault02" placeholder="" required="">
                             </div>
 
                             <div class="form-group mb-4">
-                                <label class="mb-2">Password</label>
-                                <input type="password" class="form-control" id="password1" placeholder="" required="">
+                                <label for="description">Description/Event Type</label>
+                                <textarea name="" id="" cols="40" rows="">Tell us about your event..</textarea>
                             </div>
 
-                            <button type="submit" class="btn more black submit mb-4">Appointment</button>
+                            <button type="submit" class="btn more black submit mb-4">Booking</button>
 
                         </form>
 
@@ -542,7 +487,7 @@
                 </div>
                 <div class="col-lg-7 banner_bottom_grid help pl-lg-5">
                     <img src="images/ab2.jpg" alt=" " class="img-fluid mb-4">
-                    <h4><a class="link-hny" href="contact.html">Stat Your Project Now?</a></h4>
+                    <h4><a class="link-hny" href="contact.html">We fill your event with the sweet Taste of nature</a></h4>
                     <p class="mt-3">Lorem Ipsum is simply text the printing and typesetting standard industry.Quisque sagittis lacus eu lorem. </p>
 
                 </div>
@@ -675,7 +620,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 mt-4">
-                    <h4 class="mb-4">Quick Links</h4>
+                    <h4 class="mb-4">Quick Navigation</h4>
                     <div class="links-wthree d-flex">
                         <ul class="list-info-wthree">
                             <li><a href="#"><span class="fa fa-angle-double-right"></span> Home</a></li>
@@ -685,6 +630,7 @@
                         </ul>
                     </div>
                 </div>
+                
                 <div class="col-lg-4 mt-4 ad-info">
                     <h4 class="mb-4">Contact Info</h4>
                     <p><span class="fa fa-map-marker"></span>First Mechanic,
@@ -703,12 +649,12 @@
         <div class="container">
             <div class="row d-flex">
                 <div class="col-lg-9 copy_w3pvt">
-                    <p class="text-lg-left text-center">All rights reserved. &copy; Copyright 2019, dovelzobo.com | Design by
+                    <p class="text-lg-center text-center footer-text">Copyright &copy;  2019 - <script>document.write(new Date().getFullYear())</script> Dovel Zobo Company All Rights Reserved  | Design by
                         <a href="#" target="_blank">Austin Tony N.</a> | <i class="fa fa-phone">+234 (0) 806 709 1463</i></p>
 
                 </div>
                 <!-- move top -->
-                <div class="col-lg-3 move-top text-lg-right text-center">
+                <div class="col-lg-3 move-top  text-lg-right text-center" id="moveTop">
                     <a href="#home" class="move-top">
                         <span class="fa fa-angle-double-up mt-3" aria-hidden="true"></span>
                     </a>
@@ -723,7 +669,10 @@
 
 
 
-<script src="../script/script.js"> </script>
+
+    
+    <script src="scripts/script.js"> </script>
+    <script src="scripts/app.js"> </script>
 </body>
 
 </html>
